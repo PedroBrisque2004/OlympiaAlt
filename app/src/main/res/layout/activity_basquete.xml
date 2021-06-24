@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:background="@color/red"
+    android:orientation="vertical"
+    tools:context=".Basquete">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/voltaButtonBasq"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="24dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="Botão de volta"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.044"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/volta" />
+
+        <ImageView
+            android:id="@+id/Olyfutlogo"
+            android:layout_width="168dp"
+            android:layout_height="41dp"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="-45dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.934"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/olympiaw" />
+
+        <ImageButton
+            android:id="@+id/waswizButton"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginBottom="0dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="wwizards"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.109"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/waswizwpp" />
+
+        <ImageButton
+            android:id="@+id/torrapButton"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="-120dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="traptors"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.109"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/torrapwpp" />
+
+        <ImageButton
+            android:id="@+id/atlhawButton"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="ahawks"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/atlhawwpp" />
+
+        <ImageButton
+            android:id="@+id/boscelButton"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="-120dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="bceltics"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.884"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/boscelwpp" />
+
+        <ImageButton
+            android:id="@+id/bronetButton"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="-120dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="bnets"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.109"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/bronetwpp" />
+
+        <ImageButton
+            android:id="@+id/saspuButton"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="sspurs"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/saspuwpp" />
+
+        <ImageButton
+            android:id="@+id/sackinButton"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="-120dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="skings"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sackinwpp" />
+
+        <ImageButton
+            android:id="@+id/portraButton"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="-120dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="ptrailblazers"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/portrawpp" />
+
+        <ImageButton
+            android:id="@+id/chahorButton"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="chornets"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.884"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/chahorwpp" />
+
+        <ImageButton
+            android:id="@+id/chibulButton"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="-120dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="cbulls"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.884"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/chibulwpp" />
+
+        <ImageButton
+            android:id="@+id/clecavButton"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="-120dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="ccavaliers"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.884"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/clecavwpp" />
+
+        <ImageButton
+            android:id="@+id/setaDoisBasq"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="390dp"
+            android:layout_marginTop="25dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="Seta para direita"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.934"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/setadois" />
+
+        <ImageButton
+            android:id="@+id/utajazButton"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="-610dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="ujazz"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.884"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/utajazwpp" />
+
+    </LinearLayout>
+
+</ScrollView>

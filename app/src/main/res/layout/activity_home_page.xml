@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red"
+    tools:context=".HomePage">
+
+    <ImageButton
+        android:id="@+id/bskButton"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="320dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Basquete"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.869"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/basqwpp" />
+
+    <ImageButton
+        android:id="@+id/footButton"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="320dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Futebol Americano"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.199"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/footwpp" />
+
+    <TextView
+        android:id="@+id/escolhaTextView"
+        android:layout_width="325dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="68dp"
+        android:contentDescription="escolha"
+        android:text="ESCOLHA SEU ESPORTE"
+        android:textColor="@color/white"
+        android:textSize="40px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/futButton"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="152dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Futebol"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.199"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/futwpp" />
+
+    <ImageButton
+        android:id="@+id/futfemButton"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="152dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Futebol Feminino"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.869"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/futfemwpp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="146dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="664dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/olympiaw" />
+
+    <ImageButton
+        android:id="@+id/volleyButton"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="488dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Volei"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.869"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/volwpp" />
+
+    <ImageButton
+        android:id="@+id/baseButton"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="488dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Baseball"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.199"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/basewpp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

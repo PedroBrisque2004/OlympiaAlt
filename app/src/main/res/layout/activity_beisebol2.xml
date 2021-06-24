@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:background="@color/red"
+    android:orientation="vertical"
+    tools:context=".Beisebol2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/voltaButtonBase2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="24dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="Botão de volta"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.044"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/volta" />
+
+        <ImageView
+            android:id="@+id/Olyfutlogo"
+            android:layout_width="168dp"
+            android:layout_height="41dp"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="-45dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.934"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/olympiaw" />
+
+        <ImageButton
+            android:id="@+id/colrocButton"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginBottom="0dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="crockies"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.109"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/colrocwpp" />
+
+
+
+        <ImageButton
+            android:id="@+id/cleindButton"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="-120dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="cindians"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.109"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/cleindwpp" />
+
+        <ImageButton
+            android:id="@+id/seamarButton"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="smariners"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/seamarwpp" />
+
+        <ImageButton
+            android:id="@+id/sdpadButton"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="-120dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="sdpadres"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.884"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sdpadwpp" />
+
+        <ImageButton
+            android:id="@+id/pitpirButton"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="-120dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="ppirates"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.109"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/pitpirwpp" />
+
+        <ImageButton
+            android:id="@+id/dettigButton"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="dtigers"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/dettigwpp" />
+
+        <ImageButton
+            android:id="@+id/houastButton"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="-120dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="hastros"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/houastwpp" />
+
+        <ImageButton
+            android:id="@+id/kcroyButton"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="-120dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="kcroyals"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/kcroy" />
+
+        <ImageButton
+            android:id="@+id/phiphiButton"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="pphilies"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.884"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/phiphiwpp" />
+
+        <ImageButton
+            android:id="@+id/oakasButton"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="-120dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="oathletics"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.884"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/oakaswpp" />
+
+        <ImageButton
+            android:id="@+id/nyyanButton"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="-120dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="nyyankes"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.884"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/nyyanwpp" />
+
+        <ImageButton
+            android:id="@+id/setaDoisBase2"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="390dp"
+            android:layout_marginTop="25dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="Seta para direita"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.934"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/setadois" />
+
+        <ImageButton
+            android:id="@+id/cinredButton"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="-610dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="creds"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.884"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/creds" />
+
+    </LinearLayout>
+
+</ScrollView>
