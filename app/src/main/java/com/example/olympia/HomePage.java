@@ -69,5 +69,24 @@ public class HomePage extends AppCompatActivity {
             }
         });
 
+        ImageButton LocalButton  = (ImageButton) findViewById(R.id.localButton);
+
+        LocalButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent it = new Intent(HomePage.this, localtest.class);
+                startActivity(it);
+            }
+        });
+
+        ImageButton tempeButton  = (ImageButton) findViewById(R.id.tempeButton);
+
+        tempeButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent it = new Intent(HomePage.this, pressao.class);
+                startActivity(it);
+            }
+        });
+
+
     }
 }

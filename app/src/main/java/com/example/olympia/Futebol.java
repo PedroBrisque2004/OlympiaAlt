@@ -45,7 +45,7 @@ public class Futebol extends AppCompatActivity {
 
         intButton .setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent it = new Intent(Futebol.this, TelaErro.class);
+                Intent it = new Intent(Futebol.this, SaoPaulo.class);
                 startActivity(it);
             }
         });

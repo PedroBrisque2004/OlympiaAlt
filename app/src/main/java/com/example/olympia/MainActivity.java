@@ -3,6 +3,7 @@ package com.example.olympia;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -16,21 +17,42 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button btLogin = findViewById(R.id.btLogin);
-        btLogin.setOnClickListener(new View.OnClickListener() {
+
+        final EditText etnome = findViewById(R.id.etNome);
+        final EditText etsenha = findViewById(R.id.etSenha);
+        Button btnLogin = findViewById(R.id.btnLogin);
+        Button btnregistro = findViewById(R.id.btnRegistro);
+
+        btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                TextView etEmail = findViewById(R.id.etEmail);
-                TextView etSenha = findViewById(R.id.etSenha);
-                String email = etEmail.getText().toString();
-                String senha = etSenha.getText().toString();
-                if (email.equals("pedrojbrisque@gmail.com") && senha.equals("123456")) {
-                    Intent intent = new Intent (getApplicationContext(), HomePage.class);
-                    startActivity(intent);
-                }else{
-                    Toast.makeText(MainActivity.this, "Login Inválido", Toast.LENGTH_LONG).show();
-                }
+                String usuario = etnome.getText().toString();
+                String senha = etsenha.getText().toString();
+                SharedPreferences preferences = getSharedPreferences("PREFERENCIAS", 0);
+
+                //String savedSenha = preferences.getString(senha, "");
+                //String savednome = preferences.getString(usuario, "");
+
+                String Usuario = preferences.getString(usuario + senha + "data","Usuáiro ou senha inválidos");
+                SharedPreferences.Editor editor = preferences.edit();
+                editor.putString("display",Usuario);
+                editor.commit();
+
+                Intent MainActivity = new Intent(MainActivity.this, HomePage.class);
+                startActivity(MainActivity);
+            }
+        });
+
+
+        btnregistro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent registro = new Intent(MainActivity.this, registro.class);
+                startActivity(registro);
             }
         });
     }
+
+
+
 }

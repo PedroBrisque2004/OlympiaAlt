@@ -116,4 +116,32 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/basewpp" />
 
+    <ImageButton
+        android:id="@+id/localButton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="672dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Local"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.136"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/local" />
+
+    <ImageButton
+        android:id="@+id/tempeButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="664dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Temperatura"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.91"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tempe" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
